@@ -1,0 +1,60 @@
+/*
+Challenge:
+1. Center the text and button
+2. Style the button according to the design.
+   Use a class to select the button.
+*/
+@font-face {
+    src: url("Corleone.ttf");
+    font-family: Corleone;
+}
+
+body {
+    color: #61a5c2;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0px;
+    text-align: center;
+    text-shadow: 0px 0px 6px black;
+}
+
+#pos{
+    background-image: url("https://media.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif");
+    background-size: cover;
+    margin: 0px;
+    height: 250px;
+}
+
+.btn{
+    /* text-align: center; */
+    /* margin: 30px auto; */
+    padding: 2.5px 5px 5px 5px;
+    font-family: 'Orbitron', sans-serif;
+    color: #61a5c2;
+    font-weight: bold;
+    background: white;
+    border: none;
+    border-radius: 1px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: smaller;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    box-shadow: 1.5px 1.5px 1.5px black;
+}
+
+#space{
+    width: 120px;
+    margin: 0;
+}
+
+#ul{
+    border-bottom: 5px solid white;
+    margin:0;
+}
+
+#terms{
+
+    /* background: white; */
+    padding: 5px;
+    text-shadow: 0.5px 0.5px 0.5px black;
+
+}
